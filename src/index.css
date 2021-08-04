@@ -2,3 +2,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-primary {
+    @apply
+    bg-red-primary
+    text-sm 
+    text-white-primary 
+    rounded-full
+    mx-1 py-2 px-3 
+    font-semibold 
+    cursor-pointer 
+    border-2 
+    border-red-primary 
+    hover:border-white-primary 
+    hover:bg-blue-primary
+}
+
+.btn-secondary {
+    @apply
+    text-sm 
+    text-white-primary 
+    rounded-full 
+    mx-1 py-2 px-3 
+    font-semibold 
+    cursor-pointer
+    border-2 
+    border-red-primary          
+    hover:border-white-primary 
+    hover:bg-blue-primary
+}
