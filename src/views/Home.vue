@@ -3,7 +3,7 @@
 
     <div class="mx-auto w-11/12 md:w-4/5 lg:w-1/2 pt-20">
 
-      <div class="w-20 md:w-32 lg:w-40 bg-white-primary p-2 rounded-3xl">
+      <div class="w-20 md:w-32 lg:w-40 p-2 rounded-3xl">
         <img src="../assets/logo.svg" alt="logo">
       </div>
 
