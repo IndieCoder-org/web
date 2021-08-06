@@ -1,5 +1,6 @@
 <template>
   <navbar/>
+  <div class="bg-red-primary h-1"></div>
   <router-view/>
 </template>
 
