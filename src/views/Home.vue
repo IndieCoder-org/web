@@ -8,12 +8,28 @@
       </div>
 
       <div class="py-2">
-        <p class="text-3xl md:text-5xl lg:text-7xl text-white-primary font-black">
-          Community for Indie Coder to
+        <p class="text-3xl md:text-5xl lg:text-6xl text-white-primary font-black">
+          Community for Indie Coders to
             <span class="text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">
               {{value}}
             </span>
           </p>
+      </div>
+      <div class="pt-1 mt-10 bg-red-primary"></div>
+      <div>
+        <p class="text-3xl md:text-5xl lg:text-7xl text-white-primary font-black text-center italic pt-10">Comming Soon!</p>
+      </div>
+
+      <div class="flex justify-center mt-5 text-red-primary">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+          </svg>
+        </span>
+        <address>
+          <a href="mailto:indie.coder.info@gmail.com">indie.coder.info@gmail.com</a>
+        </address>
       </div>
 
     </div>
