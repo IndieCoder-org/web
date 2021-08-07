@@ -1,37 +1,27 @@
 <template>
-  <navbar />
+  <navbar/>
+  <div class="bg-red-primary h-1"></div>
   <router-view/>
 </template>
+
 <script>
 import Navbar from './components/Navbar.vue'
 export default {
   name: 'App', 
 
-  data() {
-    return {
-      
-    }
+  components: {
+    Navbar,
   },
 
-  components: {
-    Navbar
+  mounted() {
+    document.title = 'Indie Coder'
   }
 }
 </script>
+
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-#nav {
-  padding: 30px;
-}
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-#nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>
