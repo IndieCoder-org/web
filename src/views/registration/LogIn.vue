@@ -1,15 +1,33 @@
 <template>
   <div class="bg-blue-secondary">
-    <h3 class="text-3xl text-white-primary font-black">Log In</h3>
-    <form v-on:submit.prevent="loginLocal">
-      <div class="form-group">
-        <input type="email" class="form-control" id="emailInput" v-model="email" placeholder="Email">
+    <div class="grid grid-cols-2 gap-10 w-11/12 md:w-4/5 mx-auto py-20">
+      <div class="col-span-2 md:col-span-1 my-16">
+        <h3 class="text-4xl text-red-primary font-black py-2">
+          Log In 
+          <span class="text-sm text-white-primary">
+            to your account
+          </span>
+        </h3>
+        <form v-on:submit.prevent="loginLocal">
+          <div class="py-2">
+            <input type="email" placeholder="Email Addres" class="input-style" v-model="email" />
+          </div>
+          <div class="py-2">
+            <input type="password" placeholder="Password" class="input-style" v-model="password"/>
+          </div>
+          <button type="submit" class="btn-secondary my-2">Log In</button>
+        </form>
       </div>
-      <div class="form-group">
-        <input type="password" class="form-control" id="passwordInput" v-model="password" placeholder="Password">
+      <div class="col-span-2 md:col-span-1 mx-auto">
+        <div>
+          <img class="w-60 md:w-80 mx-auto" src="../../assets/logo.svg" alt="logo">
+        </div>
+        <div>
+          <h2 class="text-white-primary text-4xl md:text-6xl font-black text-center py-3">Indie Coder</h2>
+        </div>
       </div>
-      <button type="submit" class="btn btn-secondary">Log In</button>
-    </form>
+    </div>
+    
   </div>
 </template>
 

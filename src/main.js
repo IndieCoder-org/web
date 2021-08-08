@@ -7,7 +7,7 @@ import router from './router'
 import store from './store'
 import './index.css'
 
-axios.defaults.baseURL = 'http://127.0.0.1:8000';
+axios.defaults.baseURL = 'https://indiecoder.pythonanywhere.com';
 
 createApp(App).use(store, VueAxios, axios).use(router).mount('#app')
 
